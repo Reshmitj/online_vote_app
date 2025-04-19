@@ -93,19 +93,30 @@ npm start
 
 ## 🧪 API Endpoints
 
-These are the main Frontend API routes available for testing:
+### 🌐 Frontend Routes (for Testing)
 
-http://localhost:3000/admin-login - Admin Login
-http://localhost:3000/ - Voter Login
-http://localhost:3000/register - Voter Register
+These are the main frontend pages used for accessing the application:
 
-Backend H2 DB link - http://localhost:8080/h2-console
-Credential: 
-   Driver Class: org.h2.Driver
-   JDBC URL: jdbc:h2:file:./data/onlinevotingdb
-   User Name:	sa
-   password: 
+| Page               | URL                                         | Description             |
+|--------------------|----------------------------------------------|-------------------------|
+| Admin Login        | [http://localhost:3000/admin-login](http://localhost:3000/admin-login) | Login page for Admins   |
+| Voter Login        | [http://localhost:3000/](http://localhost:3000/)                         | Login page for Voters   |
+| Voter Registration | [http://localhost:3000/register](http://localhost:3000/register)         | New Voter Registration  |
 
+---
+
+### 🗄️ H2 Database Console (Backend)
+
+You can access the H2 in-memory database from the following URL:
+
+- **H2 Console URL**: [http://localhost:8080/h2-console](http://localhost:8080/h2-console)
+
+**Login Credentials:**
+
+Driver Class: org.h2.Driver
+JDBC URL: jdbc:h2:file:./data/onlinevotingdb
+Username: sa
+Password:
 
 
 ---

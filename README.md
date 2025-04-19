@@ -23,7 +23,6 @@ Before running the application, make sure the following are installed:
 - [Spring Tool Suite (STS)](https://spring.io/tools)
 - [Node.js & npm](https://nodejs.org/) (v16+ recommended)
 - [Visual Studio Code (VS Code)](https://code.visualstudio.com/)
-- [Git](https://git-scm.com/)
 - A web browser (e.g., Chrome or Firefox)
 
 ---

@@ -113,10 +113,12 @@ You can access the H2 in-memory database from the following URL:
 
 **Login Credentials:**
 
+```
 Driver Class: org.h2.Driver
 JDBC URL: jdbc:h2:file:./data/onlinevotingdb
 Username: sa
 Password:
+```
 
 
 ---

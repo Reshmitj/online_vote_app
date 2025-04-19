@@ -9,8 +9,8 @@ This is a full-stack web application for secure and efficient online voting.
 ## 📁 Project Structure
 
 ```
-/backend     ← Spring Boot (Java)
-/frontend    ← ReactJS (JavaScript)
+/online-voting-system     ← Spring Boot (Java)
+/online-voting-system-frontend    ← ReactJS (JavaScript)
 ```
 
 ---
